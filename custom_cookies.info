@@ -1,0 +1,7 @@
+name = Custom Cookies
+description = Based on EU Cookie Compliance 7.x-1.9 - with changes by Enno Langelotz
+
+version = "7.x-1.0"
+core = "7.x"
+project = "custom-cookies"
+
