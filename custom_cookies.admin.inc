@@ -18,7 +18,7 @@ function custom_cookies_admin_form($form_state) {
   );
 
   if (module_exists('locale')) {
-    $form['custom_cookies_' . $ln]['#title'] = t('You are editing settings for the %language language.', array('%language' => $language->name));
+    $form['custom_cookies_' . $ln]['#title'] = t('Editing settings for the %language language.', array('%language' => $language->name));
   }
 
   $form['custom_cookies_' . $ln]['popup_enabled'] = array(
