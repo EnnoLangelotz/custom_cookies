@@ -10,7 +10,7 @@
 }
 
 .sliding-popup-top {
-  background-color: #000;
+  background-color: #333;
   position: relative;
 }
 
@@ -28,7 +28,7 @@
 
 #sliding-popup .popup-content #popup-buttons button {
   cursor: pointer;
-  margin-right: 5px;
+  margin-right: 1em;
   overflow: visible;
   width: auto;
   border: none;
@@ -36,7 +36,7 @@
   background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
   background-color:#ededed;
-  color:#000;
+  color:#333;
   padding:4px 8px;
   text-decoration:none; 
 }

@@ -8,7 +8,7 @@
 	"buffers":
 	[
 		{
-			"file": "css/custom_cookies.css",
+			"file": "custom-cookies/css/custom_cookies.css",
 			"settings":
 			{
 				"buffer_size": 1589,
@@ -16,34 +16,10 @@
 			}
 		},
 		{
-			"file": "custom_cookies.install",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 712,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom_cookies.admin.inc",
-			"settings":
-			{
-				"buffer_size": 3874,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom_cookies.info",
-			"settings":
-			{
-				"buffer_size": 169,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom_cookies.module",
-			"settings":
-			{
-				"buffer_size": 3762,
+				"buffer_size": 87,
 				"line_ending": "Unix"
 			}
 		}
@@ -88,6 +64,12 @@
 	},
 	"file_history":
 	[
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.module",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.info",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/theme/custom-cookies-popup-info.tpl.php",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.admin.inc",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.install",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/css/custom_cookies.css",
 		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom-cookies.sublime-project",
 		"/Users/ennolangelotz/lwd/drupal-custom-cookies/README.md",
 		"/Users/ennolangelotz/Downloads/omega/omega/templates/views/views-view-list.tpl.php",
@@ -160,12 +142,12 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "css/custom_cookies.css",
+					"file": "custom-cookies/css/custom_cookies.css",
 					"semi_transient": false,
 					"settings":
 					{
@@ -176,8 +158,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								982,
+								982
 							]
 						],
 						"settings":
@@ -190,90 +172,26 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 146.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "custom_cookies.install",
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 712,
+						"buffer_size": 87,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "custom_cookies.admin.inc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3874,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "custom_cookies.info",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 169,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								87,
+								87
 							]
 						],
 						"settings":
@@ -282,38 +200,6 @@
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "custom_cookies.module",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3762,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
