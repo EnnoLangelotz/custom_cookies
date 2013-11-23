@@ -20,16 +20,8 @@ function custom_cookies_menu() {
  */
 function custom_cookies_init() {
   $popup_settings = custom_cookies_get_settings();
-  if (isset($popup_settings['eu_only']) && $popup_settings['eu_only'] && module_exists('geoip')) { 
-    $geoip_match = false;
-    if ( in_array(geoip_country_code(), array('BE', 'BG', 'CZ', 'DK', 'DE', 'EE', 'IE', 'EL', 'ES', 'FR', 'IT', 'CY', 'LV', 'UK', 'LT', 'LU', 'HU', 'MT', 'NL', 'AT', 'PL', 'PT', 'RO', 'SI', 'SK', 'FI', 'SE'))) {
-      $geoip_match = true;
-    }
-  } else {
-    $geoip_match = true;
-  }
 
-  if (!empty($popup_settings['popup_enabled']) && user_access('display Custom Cookie popup') && $geoip_match) {
+  if (!empty($popup_settings['popup_enabled']) && user_access('display Custom Cookie popup')) {
     global $language;
 
     // color overrides

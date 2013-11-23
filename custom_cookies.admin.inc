@@ -27,14 +27,6 @@ function custom_cookies_admin_form($form_state) {
     '#default_value' => isset($popup_settings['popup_enabled']) ? $popup_settings['popup_enabled'] : 0,
   );
 
-  if (module_exists('geoip')){
-    $form['custom_cookies_' . $ln]['eu_only'] = array(
-      '#type' => 'checkbox',
-      '#title' => t('Only display popup in EU countries (using the <a href="http://drupal.org/project/geoip">geoip</a> module)'),
-      '#default_value' => isset($popup_settings['eu_only']) ? $popup_settings['eu_only'] : 0,
-    );
-  }
-
   $form['custom_cookies_' . $ln]['popup_position'] = array(
     '#type' => 'checkbox',
     '#title' => t('Place the pop-up at the top of the website'),
@@ -43,11 +35,10 @@ function custom_cookies_admin_form($form_state) {
   );
 
   $form['custom_cookies_' . $ln]['popup_info'] = array(
-    '#type' => 'text_format',
+    '#type' => 'textarea',
     '#title' => t('Popup message - requests consent'),
-    '#default_value' => isset($popup_settings['popup_info']['value']) ? $popup_settings['popup_info']['value'] : '',
+    '#default_value' => isset($popup_settings['popup_info']['value']) ? $popup_settings['popup_info']['value'] : t('This website uses cookies to enhance your user experience. By clicking any link on this page you are agreeing with our cookie policy.'),
     '#required' => TRUE,
-    '#format' => isset($popup_settings['popup_info']['format']) ? $popup_settings['popup_info']['format'] : NULL,
   );
 
   $form['custom_cookies_' . $ln]['popup_link'] = array(
