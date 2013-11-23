@@ -28,7 +28,9 @@ function custom_cookies_init() {
     $position = $popup_settings['popup_position'] ? 'top' : 'bottom';
     drupal_add_css(drupal_get_path('module', 'custom_cookies') . '/css/custom_cookies.css');
     $popup_text_info = $popup_settings['popup_info'];
-    $html_info = theme('custom_cookies_popup_info', array('message' => $popup_text_info,'buttonyes' => $popup_settings['popup_buttonyes'],'buttonno' => popup_settings['popup_buttonno']));
+    $buttonyes = isset($popup_settings['popup_buttonyes']) ? $popup_settings['popup_buttonyes'] : 'Yes';
+    $buttonno = isset($popup_settings['popup_buttonno']) ? $popup_settings['popup_buttonno'] : 'No';
+    $html_info = theme('custom_cookies_popup_info', array('message' => $popup_text_info,'buttonyes' => $buttonyes,'buttonno' => $buttonno));
     $variables = array(
       'popup_enabled' => $popup_settings['popup_enabled'],
       'popup_html_info' => empty($html_info) ? FALSE : $html_info,
