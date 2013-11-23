@@ -16,13 +16,13 @@ function custom_cookies_install() {
   );
 
   global $languages;
-  $languages = array_keys(language_list('enabled'));
+  $languages = language_list('enabled');
 
-  if (is_null($languages)) {
+  if (is_null($languages[1])) {
     variable_set('custom_cookies_en', $popup_settings);
   }
   else {
-    foreach ($languages as &$value) {
+    foreach ($languages[1] as &$value) {
       variable_set('custom_cookies_' . $value, $popup_settings);
     }
   }
