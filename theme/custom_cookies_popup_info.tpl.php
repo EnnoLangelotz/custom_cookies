@@ -12,6 +12,8 @@
  *
  * Variables available:
  * - $message:  Contains the text that will be display whithin the pop-up
+ * - $buttonyes:  The text on the button to agree with cookies
+ * - $buttonno:  The text on the button to disagree with cookies
  */
 ?>
 
@@ -21,8 +23,8 @@
       <?php print $message ?>
     </div>
     <div id="popup-buttons">
-      <button type="button" class="agree-button"><?php print t("Yes, I agree"); ?></button>
-      <button type="button" class="find-more-button"><?php print t("No, I want to find out more"); ?></button>
+      <button type="button" class="agree-button"><?php print $buttonyes; ?></button>
+      <button type="button" class="find-more-button"><?php print $buttonno; ?></button>
     </div>
   </div>
 </div>

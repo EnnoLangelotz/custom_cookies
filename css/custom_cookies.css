@@ -22,11 +22,11 @@
 
 #sliding-popup .popup-content #popup-text {
   color: #fff;
-  margin: 1em;
+  margin: 0.5em 1em;
 }
 
 #sliding-popup .popup-content #popup-buttons {
-  margin: 0 1em;
+  margin: 0.5em 1em;
 }
 
 #sliding-popup .popup-content #popup-buttons button {

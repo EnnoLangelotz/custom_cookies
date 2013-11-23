@@ -51,6 +51,25 @@ function custom_cookies_admin_form($form_state) {
     '#description' => t('Enter link to your privacy policy or other page that will explain cookies to your users. For external links prepend http://'),
   );
 
+  $form['custom_cookies_' . $ln]['popup_buttonyes'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Agree button'),
+    '#default_value' => isset($popup_settings['popup_buttonyes']) ? $popup_settings['popup_buttonyes'] : '',
+    '#size' => 40,
+    '#maxlength' => 40,
+    '#required' => TRUE,
+    '#description' => t('The text on the button if the user agrees'),
+  );
+  $form['custom_cookies_' . $ln]['popup_buttonno'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Decline button'),
+    '#default_value' => isset($popup_settings['popup_buttonno']) ? $popup_settings['popup_buttonno'] : '',
+    '#size' => 40,
+    '#maxlength' => 40,
+    '#required' => TRUE,
+    '#description' => t('The text on the button if the user disagrees'),
+  );
+
   $form['custom_cookies_' . $ln]['popup_delay'] = array(
     '#type' => 'textfield',
     '#title' => t('Popup time delay in miliseconds'),

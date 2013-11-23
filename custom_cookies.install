@@ -15,14 +15,20 @@ function custom_cookies_install() {
   $popup_settings_en = array(
     'popup_info' => 'This website uses cookies to enhance your user experience. By clicking any link on this page you are agreeing with our cookie policy.',
     'popup_link' => 'legal-advice',
+    'popup_buttonyes' => 'Yes, I agree',
+    'popup_buttonno' => 'No, I want to find out more',
   );
   $popup_settings_es = array(
     'popup_info' => 'Esta página web usa "cookies" para mejorar la experiencia. Si usted sigue navegando, acepta nuestra política de cookies.',
     'popup_link' => 'aviso-legal',
+    'popup_buttonyes' => 'Si, de acuerdo',
+    'popup_buttonno' => 'No, quierso saber más',
   );
   $popup_settings_de = array(
     'popup_info' => 'Diese Webseite benutzt Cookies zur Verbesserung der Benutzerfreundlichkeit. Wenn Sie weiter navigieren, akzeptieren Sie dieses.',
     'popup_link' => 'impressum',
+    'popup_buttonyes' => 'ja, in Ordnung',
+    'popup_buttonno' => 'Nein, bitte weitere Info',
   );
   variable_set('custom_cookies_en', $popup_settings_en);
   variable_set('custom_cookies_es', $popup_settings_es);
