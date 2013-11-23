@@ -21,16 +21,11 @@ function custom_cookies_menu() {
 function custom_cookies_init() {
   $popup_settings = custom_cookies_get_settings();
 
-  if (!empty($popup_settings['popup_enabled']) && user_access('display Custom Cookie popup')) {
+  if (!empty($popup_settings['popup_enabled'])) {
     global $language;
 
     // color overrides
     $position = $popup_settings['popup_position'] ? 'top' : 'bottom';
-    $css = '#sliding-popup.sliding-popup-'.$position.' {background:#343434;opacity:0.9;}'
-         . '#sliding-popup .popup-content #popup-text {color:#fff;}';
-    $option['type'] = 'inline';
-    drupal_add_css($css, $option);
-
     drupal_add_css(drupal_get_path('module', 'custom_cookies') . '/css/custom_cookies.css');
     $popup_text_info = str_replace(array("\r", "\n"), '', $popup_settings['popup_info']);
     $html_info = theme('custom_cookies_popup_info', array('message' => check_markup($popup_text_info, NULL, FALSE)));
@@ -54,9 +49,6 @@ function custom_cookies_permission() {
   return array(
     'administer Custom Cookies popup' => array(
       'title' => 'Administer Custom Cookies popup'
-    ),
-    'display Custom Cookie popup' => array(
-      'title' => 'Display Custom Cookies popup'
     ),
   );
 }

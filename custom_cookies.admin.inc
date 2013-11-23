@@ -24,7 +24,7 @@ function custom_cookies_admin_form($form_state) {
   $form['custom_cookies_' . $ln]['popup_enabled'] = array(
     '#type' => 'checkbox',
     '#title' => t('Enable popup'),
-    '#default_value' => isset($popup_settings['popup_enabled']) ? $popup_settings['popup_enabled'] : 0,
+    '#default_value' => isset($popup_settings['popup_enabled']) ? $popup_settings['popup_enabled'] : 1,
   );
 
   $form['custom_cookies_' . $ln]['popup_position'] = array(

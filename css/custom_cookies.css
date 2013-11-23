@@ -3,19 +3,17 @@
   text-align: center;
   width: 100%;
   z-index: 99999;
+  background-color: rgba(55,55,55,0.9);
 }
 .sliding-popup-bottom {
-  background: url('../images/gradient.png') center center scroll repeat-y transparent;
   position: fixed;
 }
 
 .sliding-popup-top {
-  background-color: #333;
   position: relative;
 }
 
 #sliding-popup .popup-content {
-  background-color: transparent;
   border: 0 none;
   display: inline-block;
   margin: 0 auto;
@@ -28,7 +26,6 @@
 
 #sliding-popup .popup-content #popup-buttons button {
   cursor: pointer;
-  margin-right: 1em;
   overflow: visible;
   width: auto;
   border: none;
