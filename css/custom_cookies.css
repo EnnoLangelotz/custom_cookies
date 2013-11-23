@@ -3,7 +3,7 @@
   text-align: center;
   width: 100%;
   z-index: 99999;
-  background-color: rgba(55,55,55,0.9);
+  background-color: rgba(55,55,55,0.94);
 }
 .sliding-popup-bottom {
   position: fixed;
@@ -20,8 +20,13 @@
   padding: 0;
 }
 
-#sliding-popup .popup-content #popup-buttons {
+#sliding-popup .popup-content #popup-text {
+  color: #fff;
   margin: 1em;
+}
+
+#sliding-popup .popup-content #popup-buttons {
+  margin: 0 1em;
 }
 
 #sliding-popup .popup-content #popup-buttons button {
@@ -48,9 +53,4 @@
 #sliding-popup .popup-content #popup-buttons button:active {
   position:relative;
   top:1px;  
-}
-
-#sliding-popup .popup-content #popup-text {
-  color: #fff;
-  margin: 1em;
 }
