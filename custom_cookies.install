@@ -18,7 +18,7 @@ function custom_cookies_install() {
   global $languages;
   $languages = array_keys(language_list('enabled'));
 
-  if is_null($languages) {
+  if (is_null($languages)) {
     variable_set('custom_cookies_en', $popup_settings);
   }
   else {
