@@ -7,22 +7,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "custom_cookies.module",
-			"settings":
-			{
-				"buffer_size": 3762,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "custom_cookies.info",
-			"settings":
-			{
-				"buffer_size": 237,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -64,6 +48,8 @@
 	},
 	"file_history":
 	[
+		"/Users/ennolangelotz/lwd/github/custom_cookies/custom_cookies.info",
+		"/Users/ennolangelotz/lwd/github/custom_cookies/custom_cookies.module",
 		"/Users/ennolangelotz/lwd/drupal-custom-cookies/README.md",
 		"/Users/ennolangelotz/lwd/drupal-custom-cookies/.gitignore",
 		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom-cookies/css/custom_cookies.css",
@@ -144,71 +130,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "custom_cookies.module",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3762,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "custom_cookies.info",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
