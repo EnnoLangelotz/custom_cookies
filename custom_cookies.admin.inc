@@ -60,22 +60,6 @@ function custom_cookies_admin_form($form_state) {
     '#required' => TRUE,
   );
 
-  $form_color_picker_type = 'textfield';
-
-  $form['custom_cookies_' . $ln]['popup_bg_hex'] = array(
-    '#type' => $form_color_picker_type,
-    '#title' => t('Background Color'),
-    '#default_value' => isset($popup_settings['popup_bg_hex']) ? $popup_settings['popup_bg_hex'] : '343434', 
-    '#description' => t('Change the background color of the popup. Provide HEX value without the #'),
-  );
-  
-  $form['custom_cookies_' . $ln]['popup_text_hex'] = array(
-    '#type' => $form_color_picker_type,
-    '#title' => t('Text Color'),
-    '#default_value' => isset($popup_settings['popup_text_hex']) ? $popup_settings['popup_text_hex'] : 'ffffff',
-    '#description' => t('Change the text color of the popup. Provide HEX value without the #'),
-  );
-
   return system_settings_form($form);
 }
 

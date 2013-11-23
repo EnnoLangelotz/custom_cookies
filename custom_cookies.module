@@ -25,13 +25,12 @@ function custom_cookies_init() {
     global $language;
 
     // color overrides
-    if ($popup_settings['popup_bg_hex'] != '' and $popup_settings['popup_text_hex'] != '') {
-      $position = $popup_settings['popup_position'] ? 'top' : 'bottom';
-      $css = '#sliding-popup.sliding-popup-'.$position.' {background:#'.$popup_settings['popup_bg_hex'].';}'
-           . '#sliding-popup .popup-content #popup-text {color:#'.$popup_settings['popup_text_hex'].';}';
-      $option['type'] = 'inline';
-      drupal_add_css($css, $option);
-    }
+    $position = $popup_settings['popup_position'] ? 'top' : 'bottom';
+    $css = '#sliding-popup.sliding-popup-'.$position.' {background:#343434;opacity:0.8;}'
+         . '#sliding-popup .popup-content #popup-text {color:#fff;}';
+    $option['type'] = 'inline';
+    drupal_add_css($css, $option);
+
     drupal_add_css(drupal_get_path('module', 'custom_cookies') . '/css/custom_cookies.css');
     $popup_text_info = str_replace(array("\r", "\n"), '', $popup_settings['popup_info']);
     $html_info = theme('custom_cookies_popup_info', array('message' => check_markup($popup_text_info, NULL, FALSE)));
