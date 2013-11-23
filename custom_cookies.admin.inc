@@ -37,7 +37,7 @@ function custom_cookies_admin_form($form_state) {
   $form['custom_cookies_' . $ln]['popup_info'] = array(
     '#type' => 'textarea',
     '#title' => t('Popup message - requests consent'),
-    '#default_value' => isset($popup_settings['popup_info']['value']) ? $popup_settings['popup_info']['value'] : '',
+    '#default_value' => isset($popup_settings['popup_info']) ? $popup_settings['popup_info'] : '',
     '#required' => TRUE,
   );
 
