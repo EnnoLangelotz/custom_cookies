@@ -61,7 +61,11 @@ function custom_cookies_theme() {
   return array(
     'custom_cookies_popup_info' => array(
       'template' => 'custom_cookies_popup_info',
-      'variables' => array('message' => NULL,'buttonyes' => NULL,'buttonno' => NULL),
+      'variables' => array(
+        'message' => NULL,
+        'buttonyes' => NULL,
+        'buttonno' => NULL,
+      ),
       'path' => $path,
     )
   );
