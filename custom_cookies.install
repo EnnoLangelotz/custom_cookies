@@ -14,9 +14,20 @@ function custom_cookies_install() {
       'value' => 'This website uses cookies to enhance your user experience. By clicking any link on this page you are agreeing with our cookie policy.',
     ),
   );
-  global $language;
-  $lang = ($language->language) ? $language->language : 'en';
-  variable_set('custom_cookies_' . $lang, $popup_settings);
+
+  global $languages;
+  $languages = array_keys(language_list('enabled'));
+
+  if is_null($languages) {
+    variable_set('custom_cookies_en', $popup_settings);
+  }
+  else {
+    foreach ($languages as &$value) {
+      variable_set('custom_cookies_' . $value, $popup_settings);
+    }
+  }
+
+  
 }
 
 /**
