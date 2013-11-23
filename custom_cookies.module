@@ -70,7 +70,7 @@ function custom_cookies_theme() {
   $path = drupal_get_path('module', 'custom_cookies') . '/theme';
   return array(
     'custom_cookies_popup_info' => array(
-      'template' => 'custom_cookies-popup-info',
+      'template' => 'custom_cookies_popup_info',
       'variables' => array('message' => NULL),
       'path' => $path,
     )
