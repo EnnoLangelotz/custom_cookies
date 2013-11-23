@@ -1,0 +1,292 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "custom_cookies.module",
+			"settings":
+			{
+				"buffer_size": 3762,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "custom_cookies.info",
+			"settings":
+			{
+				"buffer_size": 237,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/README.md",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/.gitignore",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom-cookies/css/custom_cookies.css",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.module",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.info",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/theme/custom-cookies-popup-info.tpl.php",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.admin.inc",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom_cookies.install",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/css/custom_cookies.css",
+		"/Users/ennolangelotz/lwd/drupal-custom-cookies/custom-cookies.sublime-project",
+		"/Users/ennolangelotz/Downloads/omega/omega/templates/views/views-view-list.tpl.php",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/partner-otros.php",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/index.php",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/settings.php",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/services.html",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/layout.css",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/.htaccess",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/index.html",
+		"/Users/ennolangelotz/Downloads/index.html",
+		"/private/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/fz3temp-1/precios-grupos-bournemouth-inglaterra.php",
+		"/Users/ennolangelotz/Downloads/zweatherfeed-121/jquery.zweatherfeed.alt.js",
+		"/Users/ennolangelotz/Downloads/zweatherfeed-121/sevilla.html",
+		"/Users/ennolangelotz/Downloads/zweatherfeed-121/example.html",
+		"/Users/ennolangelotz/Downloads/Singularity-1.1.2/Gemfile",
+		"/Users/ennolangelotz/Downloads/Singularity-1.1.2/CONTRIBUTING.md",
+		"/Users/ennolangelotz/Downloads/sidr-package-1.1.1/README.md",
+		"/Users/ennolangelotz/Downloads/Animenu-master/index.html",
+		"/Users/ennolangelotz/Downloads/Animenu-master/README.md",
+		"/Users/ennolangelotz/Downloads/reveal.js-master/README.md",
+		"/Users/ennolangelotz/lwd/custom-cookies/custom_cookies.install",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377017321/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/partials/components/fields/_field.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377017250/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/preprocess/node.preprocess.inc",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377016704/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/layouts/ohm-hero/ohm-hero-layout.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377087088/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/partials/base/_menus.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377087162/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/ohm.styles.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377087021/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/partials/components/menus/_action-links.scss",
+		"/Users/ennolangelotz/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/digitalocean-milkelement.com",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377016608/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/ohm.hacks.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377016653/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/sass/ohm.normalize.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1377007921/digitalocean-milkelement.com/srv/www/milkelement.com/public_html/sites/all/themes/omega/ohm/layouts/ohm-hero/ohm-hero-layout.tpl.php",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1376839075/langelotz.com/srv/www/drupalcentro.com/public_html/sites/all/themes/omega/ohm/sass/styles.scss",
+		"/var/folders/k3/ktswhxfs71d9zg03ww5vdgyr0000gn/T/sublime-sftp-browse-1376839139/langelotz.com/srv/www/drupalcentro.com/public_html/sites/all/themes/omega/ohm/layouts/ohm-hero/ohm-hero-layout.tpl.php",
+		"/Users/ennolangelotz/Library/Application Support/Sublime Text 3/Packages/User/sftp_servers/langelotz.com"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"númer",
+			"DE ALUM",
+			"número de alum"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "custom_cookies.module",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "custom_cookies.info",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 100.0
+	},
+	"project": "custom_cookies.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

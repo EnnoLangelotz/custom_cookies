@@ -4,7 +4,7 @@
  * Implements hook_menu().
  */
 function custom_cookies_menu() {
-  $items['admin/config/system/custom-cookies'] = array(
+  $items['admin/config/system/custom_cookies'] = array(
     'title' => 'Custom Cookies',
     'description' => 'Make your website compliant with the EU Directive on Privacy and Electronic Communications.',
     'page callback' => 'drupal_get_form',
@@ -78,7 +78,7 @@ function custom_cookies_theme() {
   $path = drupal_get_path('module', 'custom_cookies') . '/theme';
   return array(
     'custom_cookies_popup_info' => array(
-      'template' => 'custom-cookies-popup-info',
+      'template' => 'custom_cookies-popup-info',
       'variables' => array('message' => NULL),
       'path' => $path,
     )
