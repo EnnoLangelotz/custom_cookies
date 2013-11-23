@@ -13,7 +13,7 @@ function custom_cookies_admin_form($form_state) {
   $ln = $language->language;
   $popup_settings = custom_cookies_get_settings();
   dsm($popup_settings);
-  dsm(array_keys(language_list('enabled')['1']));
+  dsm(language_list('enabled'));
   $form['custom_cookies_' . $ln] = array (
     '#type'  => 'item',
     '#tree'   => TRUE,
