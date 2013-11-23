@@ -9,24 +9,27 @@
  * Implements hook_install().
  */
 function custom_cookies_install() {
-  $popup_settings = array(
+  /*
+  *This is not a general approach but rather specialized code for my websites, so we are interested in Spanish, English and German, no checking done on actual languages activated
+  */
+  $popup_settings_en = array(
     'popup_info' => array(
       'value' => 'This website uses cookies to enhance your user experience. By clicking any link on this page you are agreeing with our cookie policy.',
     ),
   );
-
-  global $languages;
-  $languages = language_list('enabled');
-
-  if (is_null($languages[1])) {
-    variable_set('custom_cookies_en', $popup_settings);
-  }
-  else {
-    foreach ($languages[1] as &$value) {
-      variable_set('custom_cookies_' . $value, $popup_settings);
-    }
-  }
-
+  $popup_settings_es = array(
+    'popup_info' => array(
+      'value' => 'Esta página web usa "cookies" para mejorar la experiencia. Si usted sigue navegando, acepta nuestra política de cookies.',
+    ),
+  );
+  $popup_settings_de = array(
+    'popup_info' => array(
+      'value' => 'Diese Webseite benutzt Cookies zur Verbesserung der Benutzerfreundlichkeit. Wenn Sie weiter navigieren, akzeptieren Sie dieses.',
+    ),
+  );
+  variable_set('custom_cookies_en', $popup_settings_en);
+  variable_set('custom_cookies_es', $popup_settings_es);
+  variable_set('custom_cookies_de', $popup_settings_de);
   
 }
 
