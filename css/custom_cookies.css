@@ -3,7 +3,7 @@
   text-align: center;
   width: 100%;
   z-index: 99999;
-  background-color: rgba(55,55,55,0.94);
+  background-color: rgba(22,22,22,0.94);
 }
 .sliding-popup-bottom {
   position: fixed;
@@ -21,7 +21,7 @@
 }
 
 #sliding-popup .popup-content #popup-text {
-  color: #fff;
+  color: #eee;
   margin: 0.5em 1em;
 }
 

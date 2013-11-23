@@ -11,6 +11,7 @@ function custom_cookies_admin_form($form_state) {
 
   global $language;
   $ln = $language->language;
+  dsm($ln);
   $popup_settings = custom_cookies_get_settings();
   $form['custom_cookies_' . $ln] = array (
     '#type'  => 'item',
