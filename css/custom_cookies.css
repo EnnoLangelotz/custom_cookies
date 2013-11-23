@@ -1,5 +1,6 @@
 #sliding-popup {
   display: block;
+  font-size: 12px;
   text-align: center;
   width: 100%;
   z-index: 99999;
