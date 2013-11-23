@@ -26,7 +26,7 @@ function custom_cookies_init() {
 
     // color overrides
     $position = $popup_settings['popup_position'] ? 'top' : 'bottom';
-    $css = '#sliding-popup.sliding-popup-'.$position.' {background:#343434;opacity:0.8;}'
+    $css = '#sliding-popup.sliding-popup-'.$position.' {background:#343434;opacity:0.9;}'
          . '#sliding-popup .popup-content #popup-text {color:#fff;}';
     $option['type'] = 'inline';
     drupal_add_css($css, $option);
