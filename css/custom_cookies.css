@@ -26,10 +26,6 @@
   margin: 0.5em 1em;
 }
 
-#sliding-popup .popup-content #popup-buttons {
-  margin: 0.5em 1em;
-}
-
 #sliding-popup .popup-content #popup-buttons button {
   cursor: pointer;
   overflow: visible;
@@ -40,6 +36,7 @@
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
   background-color:#ededed;
   color:#333;
+  margin: 0.5em 1em;
   padding:4px 8px;
   text-decoration:none; 
 }
