@@ -33,7 +33,7 @@ function custom_cookies_init() {
       drupal_add_css($css, $option);
     }
     drupal_add_css(drupal_get_path('module', 'custom_cookies') . '/css/custom_cookies.css');
-    dsm($popup_settings['popup_info']['value']);
+    dsm($popup_settings);
     $popup_text_info = str_replace(array("\r", "\n"), '', $popup_settings['popup_info']['value']);
     dsm($popup_text_info);
     $html_info = theme('custom_cookies_popup_info', array('message' => check_markup($popup_text_info, NULL, FALSE)));
